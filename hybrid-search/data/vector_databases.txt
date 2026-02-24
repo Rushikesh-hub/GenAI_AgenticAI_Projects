@@ -1,0 +1,22 @@
+Vector Databases and Similarity Search
+=======================================
+
+Vector databases store embeddings and enable similarity search
+using distance metrics like cosine similarity or L2 distance.
+
+Popular options:
+
+1. FAISS (Facebook AI Similarity Search)
+   Open source, local, blazing fast. Best for dev/prototyping.
+   No built-in persistence — must save/load manually.
+
+2. Pinecone — managed cloud, no infra, great for production.
+
+3. ChromaDB — open source, easy Python API, good for local dev.
+
+4. Weaviate — open source + cloud, built-in hybrid search.
+
+Embedding models:
+- all-MiniLM-L6-v2:      384 dims, fast, ~80MB, great quality/speed ratio
+- text-embedding-3-small: 1536 dims, OpenAI hosted, higher quality
+- text-embedding-3-large: 3072 dims, OpenAI hosted, highest quality
