@@ -1,0 +1,24 @@
+Prompt Engineering Best Practices
+===================================
+
+Prompt engineering is crafting LLM inputs to elicit accurate,
+relevant, and useful outputs.
+
+Core techniques:
+
+1. Zero-Shot Prompting — direct task, no examples.
+
+2. Few-Shot Prompting — 2-5 worked examples before the task.
+   Significantly improves accuracy on complex tasks.
+
+3. Chain-of-Thought (CoT) — 'Think step by step...'
+   Best for math, logic, multi-step reasoning.
+
+4. System Prompt vs User Prompt:
+   System: persona, rules, constraints (set once).
+   User: the actual question (changes per request).
+
+5. RAG-specific prompting tips:
+   - Tell the model to answer ONLY from the provided context.
+   - Instruct it to say 'I don't know' if context is insufficient.
+   - Request citations: 'Quote the relevant passage from context.'

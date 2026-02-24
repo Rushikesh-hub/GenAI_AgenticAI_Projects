@@ -1,0 +1,18 @@
+Retrieval-Augmented Generation (RAG) Overview
+==============================================
+
+RAG is a technique that enhances LLMs by grounding responses in
+retrieved external knowledge rather than relying on the model's
+parametric memory baked in during training.
+
+Key benefits of RAG:
+1. Reduces hallucination by providing factual grounding.
+2. Enables LLMs to answer questions about private/proprietary data.
+3. Knowledge can be updated without expensive model retraining.
+4. Provides citations and traceability for answers.
+5. Cost-effective compared to full fine-tuning.
+
+The RAG pipeline has two main phases:
+- Indexing: Documents are chunked, embedded, stored in a vector DB.
+- Querying: Questions are embedded and matched against stored vectors.
+  Relevant context is passed to the LLM for grounded generation.
