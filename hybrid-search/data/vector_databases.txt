@@ -19,4 +19,4 @@ Popular options:
 Embedding models:
 - all-MiniLM-L6-v2:      384 dims, fast, ~80MB, great quality/speed ratio
 - text-embedding-3-small: 1536 dims, OpenAI hosted, higher quality
-- text-embedding-3-large: 3072 dims, OpenAI hosted, highest qualit
+- text-embedding-3-large: 3072 dims, OpenAI hosted, highest quality
