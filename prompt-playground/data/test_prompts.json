@@ -1,0 +1,11 @@
+[
+    {
+      "task": "Explain the benefits of Retrieval-Augmented Generation."
+    },
+    {
+      "task": "Compare FAISS and Pinecone."
+    },
+    {
+      "task": "Design a scalable recommender system for 1M users."
+    }
+  ]
